@@ -6,6 +6,7 @@ pragma solidity ^0.8.19;
  * @notice Interface for the lending pool contract
  */
 interface ILendingPool {
-        // Core functions
+    // Core functions
     function deposit(uint256 amount) external;
+    function withdraw(uint256 lpTokenAmount) external;
 }
