@@ -20,5 +20,6 @@ interface ILendingPool {
         function getSupplyRate() external view returns (uint256);
             function getTotalAssets() external view returns (uint256);
     function getUserBorrowBalance(address user) external view returns (uint256);
+    function getHealthFactor(address user) external view returns (uint256);
 
 }
